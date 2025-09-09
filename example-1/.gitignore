@@ -1,2 +1,11 @@
 hello
 hello-dbg
+
+# Игнорировать исполняемые файлы
+*
+
+# Но не игнорировать сам Makefile и .gitignore
+!Makefile
+!.gitignore
+!*.c
+!*.h
